@@ -2,8 +2,6 @@ import UserCard from './../components/UserCard';
 import users from './../data/users';
 
 export default function Home() {
-console.log(users);
-console.log('hello');
   return (
     <div className="sm:w-9/12 sm:m-auto pt-16 pb-16">
       <h1 className="dark:text-white text-5x1 font-bold text-center">
